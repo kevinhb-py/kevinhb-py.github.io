@@ -64,7 +64,7 @@ Sitio 100% estático (HTML + CSS + JavaScript puro), sin frameworks ni backend.
 | Ver Proyecto (x3, Proyectos) | WhatsApp con mensaje precargado por proyecto |
 | Ver más Proyectos | `https://www.atom.bio/kevindelbarrio` |
 | Ver detalle → Estructural | `files/catalogo_etabs.pdf` |
-| Ver detalle → Memorias Excel | `files/catalogo_revit.pdf` ⚠️ *verificar nombre real del archivo* |
+| Ver detalle → Memorias Excel | `files/catalogo_revit.pdf`
 | Ver detalle → Mathcad | `files/catalogo_mathcad.pdf` |
 | Ver detalle → Revit | Abre el panel interno de Revit (`#revitPanel`) |
 | Ver más (Plantillas) | `https://www.atom.bio/kevindelbarrio` |
