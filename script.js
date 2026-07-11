@@ -30,6 +30,26 @@ window.addEventListener("scroll", () => {
 
 
 /* ========================================= */
+/* MENU HAMBURGUESA (MOVIL) */
+/* ========================================= */
+
+const menuToggle = document.getElementById("menuToggle");
+const navbar = document.querySelector(".navbar");
+
+if(menuToggle && navbar){
+
+    menuToggle.addEventListener("click", () => {
+
+        navbar.classList.toggle("active");
+
+        menuToggle.classList.toggle("active");
+
+    });
+
+}
+
+
+/* ========================================= */
 /* SCROLL SUAVE */
 /* ========================================= */
 
@@ -57,6 +77,20 @@ navLinks.forEach(link => {
                 behavior: "smooth"
 
             });
+
+        }
+
+        /* Cierra el menú móvil al elegir una opción */
+
+        if(navbar){
+
+            navbar.classList.remove("active");
+
+        }
+
+        if(menuToggle){
+
+            menuToggle.classList.remove("active");
 
         }
 
